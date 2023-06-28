@@ -26,10 +26,14 @@ const CONFIG = {
   // geoRouting: 'off',
   // fallbackRouting: 'off',
   locales: {
-    '': { ietf: 'en-US', tk: 'hah7vzn.css' },
-    de: { ietf: 'de-DE', tk: 'hah7vzn.css' },
-    kr: { ietf: 'ko-KR', tk: 'zfo3ouc' },
+    '': { ietf: 'en-US', tk: 'hah7vzn.css' }
   },
+};
+
+// Lana options
+window.lana = { 
+  log: console.log,
+  options: { clientId: 'null', endpoint: '', endpointStage: '', sampleRate: 0, impliciteSampleRate: 0 }
 };
 
 // Load LCP image immediately
